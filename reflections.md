@@ -1,18 +1,19 @@
 
 # Table of Contents
 
--   [Goals](#org38e33b4)
--   [Reflections](#orgcac8eaf)
--   [Further reading](#org20c104c)
+-   [Goals](#org4c72c79)
+-   [Reflections](#org5d13d2c)
+-   [Further reading](#org0e1a5eb)
+-   [Future ideas](#org87db67c)
 
 
 
-<a id="org38e33b4"></a>
+<a id="org4c72c79"></a>
 
 # Goals
 
 
-<a id="orgcac8eaf"></a>
+<a id="org5d13d2c"></a>
 
 # Reflections
 
@@ -44,7 +45,7 @@
 -   Writing out code by hand is good. It's kind of like rubber-duck coding.
 
 
-<a id="org20c104c"></a>
+<a id="org0e1a5eb"></a>
 
 # Further reading
 
@@ -52,4 +53,12 @@
 -   Some documents from that video's comments:
     -   <https://prl.ccs.neu.edu/img/p-tr-1971.pdf>
     -   <https://www.cs.tufts.edu/~nr/cs257/archive/barbara-liskov/data-abstraction-and-hierarchy.pdf>
+
+
+<a id="org87db67c"></a>
+
+# Future ideas
+
+-   Rewrite this in Haskell with types.
+-   Add `genanki` functionality.
 
