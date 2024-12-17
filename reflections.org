@@ -105,6 +105,7 @@
 - [[https://github.com/manticoresoftware/manticoresearch-python][Manticore python client]]
 - Ask ChatGPT
 - Maybe get a MySQL client to filter stuff first.
+- Try searching "tatoeba CLI browser"
 
 *** Some warnings
 - I'm definitely spending more time on this than I am on actually
