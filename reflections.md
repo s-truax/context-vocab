@@ -1,19 +1,20 @@
 
 # Table of Contents
 
--   [Goals](#org4c72c79)
--   [Reflections](#org5d13d2c)
--   [Further reading](#org0e1a5eb)
--   [Future ideas](#org87db67c)
+-   [Goals](#org29d0e7a)
+-   [Reflections](#org1afff46)
+-   [Further reading](#org4f1d8b7)
+-   [Future ideas](#orgb0882d6)
+    -   [A better interface?](#orgf074b46)
 
 
 
-<a id="org4c72c79"></a>
+<a id="org29d0e7a"></a>
 
 # Goals
 
 
-<a id="org5d13d2c"></a>
+<a id="org1afff46"></a>
 
 # Reflections
 
@@ -45,7 +46,7 @@
 -   Writing out code by hand is good. It's kind of like rubber-duck coding.
 
 
-<a id="org0e1a5eb"></a>
+<a id="org4f1d8b7"></a>
 
 # Further reading
 
@@ -55,10 +56,34 @@
     -   <https://www.cs.tufts.edu/~nr/cs257/archive/barbara-liskov/data-abstraction-and-hierarchy.pdf>
 
 
-<a id="org87db67c"></a>
+<a id="orgb0882d6"></a>
 
 # Future ideas
 
 -   Rewrite this in Haskell with types.
 -   Add `genanki` functionality.
+
+
+<a id="orgf074b46"></a>
+
+## A better interface?
+
+-   What would be cook is some kind of GUI.
+-   You would
+    1.  Manually create your vocab list.
+    2.  For each term in your vocab list:
+    3.  GUI does a Tatoeba search. Search can be paramatarized.
+    4.  GUI displays the current term and the search results.
+    5.  You can browse through the search results.
+    6.  GUI gives you the option to modify the search, either its
+        parameters or filters.
+    7.  Sentences and translations are displayed like they are in the
+        Tatoeba web app.
+    8.  When you find a sentence you like, you mark it. You can mark multiple.
+    9.  The app stores your choice.
+    10. The next term in your list is shown.
+    11. At the end, you get a `.tsv` that can be imported as Anki flaschards.
+    12. Could also generate an anki deck.
+-   The app would be smart enough to figure out what is a phrase, a
+    seperable verb, the plural and singular forms of a noun.
 
