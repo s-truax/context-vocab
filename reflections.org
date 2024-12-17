@@ -43,7 +43,10 @@
 * Future ideas
 - Rewrite this in Haskell with types.
 - Add ~genanki~ functionality.
+  
 ** A better interface?
+
+
 *** The idea
 - What would be cook is some kind of GUI.
 - You would
@@ -68,3 +71,44 @@
 - Need the GUI bc it makes looking at the sentences and quickly refining the search painless.
 - But maybe this could be done with an interactive CLI prompt? Something like a REPL
 - The issue is IDK how to make a GUI.
+- Also need the manticore search abilities.
+*** A proof of concept
+- Could do this without the Manticore search although investing the
+  time to learn how to do that could be worth it.
+- User writes tables that look like
+  
+| Term                  | Type |                  |
+|-----------------------+------+------------------|
+| der Apfel, die Äpfel  | n    | A noun           |
+| der Abend, die Abende | n    |                  |
+| aufstehen             | vs   | A seperable verb |
+| Das tut mir leid.     | p    | A phrase         |
+
+- Interactive CLI reads table. For each term:
+  1. Shows you the term
+  2. Shows you a few sentences.
+  3. You mark what sentences you want via keyboard input.
+- Interactive CLI shows you the current search term.
+- Allows you to add filters.
+- Can have some pre-defined other searches to cycle through.
+- Could use Textual or pytermgui
+- Could also just make a repl
+
+*** Resources
+- [[https://manual.manticoresearch.com/Creating_a_table/NLP_and_tokenization/Morphology?client=Python#morphology][Manticore morphology searches]]
+- [[https://pymotw.com/2/cmd/][python cmd library]]
+- [[https://www.reddit.com/r/learnpython/comments/3yp89v/make_a_repl_for_a_python_program/][this reddit post]]
+- [[https://www.youtube.com/watch?v=NI9LXzo0UY0][YouTube on using tkinter]]
+- [[https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/][MySQL tutorial]]
+- [[https://www.w3schools.com/MySQL/][W3Schools MySQL]]
+- [[https://en.wiki.tatoeba.org/articles/show/using-the-tatoeba-corpus][How to use the tatoeba corpus]]
+- [[https://github.com/manticoresoftware/manticoresearch-python][Manticore python client]]
+- Ask ChatGPT
+- Maybe get a MySQL client to filter stuff first.
+
+*** Some warnings
+- I'm definitely spending more time on this than I am on actually
+  studying German.
+- Someone may have already implemented this. Maybe do some Googling first.
+- I could sink hours into this. Time myself. Or set the time aside and
+  be intentional.
